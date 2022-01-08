@@ -1,0 +1,27 @@
+{
+  "name": "graphql-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "ewooral": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ewooral/graphQL-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ewooral/graphQL-Project/issues"
+  },
+  "homepage": "https://github.com/Ewooral/graphQL-Project#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
