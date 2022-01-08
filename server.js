@@ -11,11 +11,11 @@ const app = express();
 
 const schema = new GraphQLSchema({
     query: new GraphQLObjectType({
-        name: 'Hello, World!',
+        name: 'HelloWorld',
         fields: () => ({
             message:{
                 type:GraphQLString,
-                resolve:() => 'Hello, World!'
+                resolve:() => 'Hello World!'
             }
         }),
     })
@@ -27,7 +27,7 @@ app.use('/graphql', expressGraphQL({
 
 }));
 
-app.listen(3000, () => {
-    console.log('Server is running on port 3000');
+app.listen(5000, () => {
+    console.log('Server is running on port 5000');
     }
 );
